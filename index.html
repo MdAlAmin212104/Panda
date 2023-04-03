@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Ecomarce </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoes">shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#backpack">Backpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+ 
+    <div id="carouselExampleIndicators" class="carousel slide div1" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row  align-items-center">
+            <div class="col-md-7">
+              <h1>Mi LED TV 4A PRO 32</h1>
+              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+              </p>
+              <h1 class="price">$1289</h1>
+              <button class="buy-button">Buy now</button>
+
+            </div>
+            <div class="col-md-5">
+              <img src="img/banner-images/tv.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1>This is a headphone on this your</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit suscipit quas eos repellat aliquam necessitatibus doloremque maxime earum fuga, perferendis ipsum, consectetur, quis placeat enim corrupti tenetur adipisci aut ea!
+              </p>
+              <h1 class="price">$800</h1>
+              <button class="buy-button">Buy now</button>
+
+            </div>
+            <div class="col-md-5">
+              <img src="img/banner-images/headphone.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1>this is a xbox </h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quos culpa reiciendis sapiente fuga maiores, reprehenderit inventore aut odio beatae, in provident ad esse illum fugiat voluptate. Eligendi, nisi debitis.
+              </p>
+              <h1 class="price">$560</h1>
+              <button class="buy-button">Buy now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="img/banner-images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+
+    <div class="catagory">
+      <h1>Categories</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="cat1 d-flex justify-content-evenly align-items-center">
+            <h1>Watch</h1>
+            <img src="img/categories/watch.png" alt="Watch">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cat2 d-flex justify-content-evenly align-items-center">
+            <h1>Bag</h1>
+          <img src="img/categories/bag.png" alt="">
+          </div>
+       
+        </div>
+        <div class="col-md-4">
+          <div class="cat3 d-flex justify-content-evenly align-items-center">
+            <h1>Shoes</h1>
+          <img src="img/categories/shoes.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container shoes" id="shoes">
+    <h3>Shoes</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="img/shoes/shoe-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+            <p class="card-text">Some quick example text to build on
+              the card title.</p>
+              <p>$999</p>
+              <button class="buy-button">Buy now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="img/shoes/shoe-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reebok Pump</h5>
+            <p class="card-text">Some quick example text to build on
+              the card title.</p>
+              <p>$799</p>
+              <button class="buy-button">Buy now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="img/shoes/shoe-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reebok All Terrain</h5>
+            <p class="card-text">Some quick example text to build on
+              the card title.</p>
+              <p>$699</p>
+              <button class="buy-button">Buy now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <div class="container backpack" id="backpack">
+      <h3>BackPack</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 align-items-center">
+            <img src="img/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ison Backpack</h5>
+              <p class="card-text">Some quick example text to build on
+                the card title.</p>
+                <p>$500</p>
+                <button class="buy-button">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 align-items-center">
+            <img src="img/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Biaowang Backpack </h5>
+              <p class="card-text">Some quick example text to build on
+                the card title.</p>
+                <p>$270</p>
+                <button class="buy-button">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 align-items-center">
+            <img src="img/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dxyizu WS54 Smart </h5>
+              <p class="card-text">Some quick example text to build on
+                the card title.</p>
+                <p>$321</p>
+                <button class="buy-button">Buy now</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container contact d-flex justify-content-center align-items-center" id="contact">
+      <div>
+        <h2>LET'S STAY IN TOUCH</h2>
+        <h6>Get updates on sales specials and more</h6>
+        <input type="text" placeholder="Enter your email">
+        <button class="buy-button">Sent</button>
+      </div>
+
+    </div>
+    
+
+
+
+    <!-- javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
